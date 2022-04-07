@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:site_name" content="Le Club 108.fr">
+        <meta property="og:type" content="website">
+        <meta property="og:locale" content="fr_FR">
+        <meta property="og:title" content="Le Club 108">
+        <meta property="og:description" content="Le Club 108 - Toute l'actualité de votre cinéma.">
+        <meta property="og:url" content="https://www.leclub108.fr">
+        <title>Le Club 108</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=BenchNine&family=Chela+One&display=swap" rel="stylesheet">
+    </head>
+    <body class="wrapper">
+        <header class="main-header" role="banner">
+            <img src="img/logo.png" alt="Le Club 108 - Logo" class="header-logo">
+            <h1 class="header-title">La passion des films</h1>
+        </header>
+        <nav class="main-nav bck-red">
+            <ul class="nav-menu" role="navigation">
+                <li class="menu-item" role="menuitem"><a href="#">Programme</a></li>
+                <li class="menu-item" role="menuitem"><a href="#">Actualités</a></li>
+                <li class="menu-item" role="menuitem"><a href="#">Jeune public</a></li>
+                <li class="menu-item" role="menuitem"><a href="#">Tarifs</a></li>
+                <li class="menu-item" role="menuitem"><a href="#">Accès</a></li>
+            </ul>
+            <input type="search" class="menu-search" placeholder="Rechercher">
+        </nav>
+
+        <article class="main-content art-padding">
+            <p class="label bck-red">La une</p>
+            <picture>
+                <source media="(min-width: 550px)" srcset="img/la-une-960.jpg">
+                <source media="(max-width: 549px)" srcset="img/la-une-450.jpg">
+                <img src="img/la-une-960.jpg" alt="La Une">
+            </picture>
+            <h2>Ad officia offcia</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi itaque sunt corrupti modi mollitia autem, esse neque amet pariatur molestiae consectetur illum laboriosam, enim nisi dolore, accusamus dolor harum delectus animi officia. Voluptatem aperiam ratione ullam! Error natus deserunt tempore dolorem vero in dolorum amet dignissimos inventore accusantium voluptas, pariatur corrupti eveniet ad a cumque sed ea unde id tempora quis reiciendis enim blanditiis? Reprehenderit laborum temporibus rerum excepturi! Magni expedita at fugit nihil eos, consectetur adipisci voluptate optio doloribus? Debitis, repudiandae perspiciatis eaque iure iste velit? Odio ad harum id voluptatum, placeat, voluptatibus dolorem nulla quia quidem deleniti animi? <a href="#">Lire la suite</a></p>
+                
+            <div class="buttons">
+                <input type="button" class="article-btn btn-reserve bck-blue" value="Réserver" onclick="location.href='#';">
+                <input type="button" class="article-btn btn-command bck-blue" value="Commander l'affiche" onclick="location.href='#';">
+            </div>
+        </article>
+
+        <aside class="aside-agenda art-padding">
+            <p class="label bck-red">Horaires</p>
+            <div class="agenda-container">
+                <table class="agenda-table">
+                    <thead>
+                        <tr class="bck-blue">
+                            <th>Heure</th>
+                            <th>Film</th>
+                            <th>Salle</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>12h</td>
+                            <td>Tommy</td>
+                            <td>1</td>
+                        </tr>
+                        <tr class="bck-grey">
+                            <td>14h</td>
+                            <td>In the Wood</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>14h</td>
+                            <td>Le chien perdu</td>
+                            <td>2</td>
+                        </tr>
+                        <tr class="bck-grey">
+                            <td>18h</td>
+                            <td>Lavoir et les siens</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>18h</td>
+                            <td>Truqueur sur gage</td>
+                            <td>2</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </aside>
+
+        <aside class="aside-address art-padding">
+            <p class="label bck-red">Adresse</p>
+            <h2>Le Club 108</h2>
+            <p class="h-adr"><span class="p-street-address">108, rue du Club</span> - <span class="p-postal-code">34000</span> <span class="p-locality">Montpellier</span></p>
+        </aside>
+
+        <section class="portfolio art-padding">
+            <p class="label bck-red">Portfolio</p>
+            <div class="picture-container">
+                <p class="label bck-red label-hover">Regarder</p>
+                <picture class="portfolio-pic">
+                    <source srcset="img/portfolio-600.jpg" media="(min-width: 550px)">
+                    <source srcset="img/portfolio-450.jpg" media="(max-width: 549px)" >
+                    <img src="img/portfolio-600.jpg" alt="Portfolio">
+                </picture>
+            </div>
+        </section>
+
+        <section class="this-week art-padding">
+            <p class="label bck-red">Cette semaine</p>
+            
+            <div class="this-week-articles">
+                <article class="this-week-first">
+                    <picture>
+                        <source media="(min-width: 550px)" srcset="img/cette-semaine-1-720.jpg">
+                        <source media="(max-width: 549px)" srcset="img/cette-semaine-1-450.jpg">
+                        <img src="img/cette-semaine-1-720.jpg" alt="Cette semaine 1">
+                    </picture>
+                    <h2>Lorem ipsum dolor sit.</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis aliquam praesentium repudiandae temporibus fugiat, eum totam inventore quasi. Eum numquam molestiae veritatis similique laudantium eveniet adipisci dolore suscipit beatae in voluptatem cupiditate assumenda quos placeat dolor excepturi libero, ipsa rem quae voluptatibus tenetur repellat dicta at amet. Earum, accusamus? Amet! <a href="#">Lire la suite</a></p>
+                </article>
+                <article class="this-week-second">
+                    <picture>
+                        <source media="(min-width: 550px)" srcset="img/cette-semaine-2-720.jpg">
+                        <source media="(max-width: 549px)" srcset="img/cette-semaine-2-450.jpg">
+                        <img src="img/cette-semaine-2-720.jpg" alt="Cette semaine 2">
+                    </picture>
+                    <h2>Lorem, ipsum dolor.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos consequuntur est reprehenderit ratione voluptas quis? Alias, sed perferendis. Perferendis culpa doloremque nesciunt enim! Maiores dignissimos et nobis eligendi rerum quod recusandae? Provident tempora nulla voluptas, repudiandae voluptatum perferendis laboriosam enim repellendus officia amet dolorum reprehenderit quos, praesentium, veritatis ex iure! <a href="#">Lire la suite</a></p>
+                </article>
+            </div>
+        </section>
+
+        <footer class="main-footer">
+            <ul class="footer-menu">
+                <li class="fmenu-item"><a href="#">CLUB 108</a></li>
+                <li class="fmenu-item"><a href="#">Parking et accès</a></li>
+                <li class="fmenu-item"><a href="#">Tarifs et horaires</a></li>
+                <li class="fmenu-item"><a href="#">Carte club</a></li>
+                <li class="fmenu-item"><a href="#">A proximité</a></li>
+                <li class="fmenu-item"><a href="#">Jobs étudiants</a></li>
+                <li class="fmenu-item"><a href="#">Séances privées</a></li>
+                <li class="fmenu-item"><a href="#">Espace partenaire</a></li>
+                <li class="fmenu-item"><a href="#">Parking et accès</a></li>
+                <li class="fmenu-item"><a href="#">Tarifs et horaires</a></li>
+                <li class="fmenu-item"><a href="#">Carte club</a></li>
+                <li class="fmenu-item"><a href="#">A proximité</a></li>
+                <li class="fmenu-item"><a href="#">Jobs étudiants</a></li>
+                <li class="fmenu-item"><a href="#">Séances privées</a></li>
+                <li class="fmenu-item"><a href="#">Espace partenaire</a></li>
+            </ul>
+            <img src="img/logo.png" alt="Footer Logo" class="footer-logo">
+        </footer>
+    </body>
+</html>
